@@ -1,4 +1,5 @@
 # Made By Shaheen <abdelazizshaheen162@gmail.com> For Python Workshop In Cic
+# Ford by <NatalieAmir> for Python Workshop in Cic 
 
 import pygame
 import random
@@ -13,10 +14,10 @@ WINDOW = pygame.display.set_mode((WIDTH, HEIGHT))
 pygame.display.set_caption("Snake Game")
 
 # Colors
-BGCOLOR = (57, 0, 153)
-TEXT_COLOR = (255, 255, 179)
-FOOD_COLOR = (220,171,107)
-SNAKE_COLOR = (255, 0, 84)
+BGCOLOR = (255,179, 236)
+TEXT_COLOR = (179, 0, 179)
+FOOD_COLOR = (255, 255, 0)
+SNAKE_COLOR = (255, 255, 255)
 
 # Snake properties
 SNAKE_SIZE = 20
